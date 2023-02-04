@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
 import { useState } from 'react';
 import Alert from './Components/Alert';
-import About from './Components/About';
+// import About from './Components/About';
 
 // import React from 'react';
 // import {
@@ -59,7 +59,7 @@ function App() {
    <Navbar tittle="textutils" aboutText="About" mode={mode} toggleMode={toggleMode} />
    <Alert alert={alert}  />
     <TextForm heading="Try TextUtils-word counter,character counter,copy text" showAlert={showAlert} mode={mode}/>
-            <About  mode={mode}/>
+            {/* <About  mode={mode}/> */}
     </>
   )
 } 
